@@ -8,5 +8,5 @@ end
   word.reverse
   word.reverse
 end
-@new_phrase.join
+@new_phrase.join(" ")
 end
