@@ -4,6 +4,7 @@ def reverse_each_word(phrase)
 @phrase.split.each do |word|
   @new_phrase<< word.reverse
 end
-@new_phrase.join(" ")
-
+@new_phrase.collect do |word|
+  word.reverse
+end 
 end
