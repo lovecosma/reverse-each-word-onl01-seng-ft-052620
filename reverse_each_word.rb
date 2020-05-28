@@ -6,5 +6,5 @@ def reverse_each_word(phrase)
 end
 @new_phrase.collect do |word|
   word.reverse
-end 
+end
 end
